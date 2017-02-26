@@ -14,6 +14,7 @@ POLONIUS:  Very like a whale.
 The thought experiment was formulated by Richard Dawkins, and the first simulation written by him; various other implementations of the program have been written by others.
                                                         
 The ["Weasel" algorithm](https://en.wikipedia.org/wiki/Weasel_program) implemented here runs as follows:
+
 1. **Start** - A random state (a string of 28 characters).
 2. **Produce offspring** - Make N copies of the string.
 3. **Mutate** - For each character in each of the copies, with a probability of P, replace the character with a new random character.
